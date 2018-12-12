@@ -1,0 +1,74 @@
+body{
+	background-color: #232323;
+	margin:0;
+	font-family: 'Share Tech', sans-serif;
+}
+
+.square{
+	width: 30%;
+	background-color: blue;
+	padding-bottom: 30%;
+	float:left;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 0.4s;
+	-webkit-transition: background 0.4s;
+	-moz-transition: background 0.4s;
+}
+
+#container{
+	margin: 20px auto;
+	max-width:600px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin:0;	
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+	color: black;
+}
+
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+button{
+	background-color: white;
+	border: 0;
+	font-family: 'Share Tech', sans-serif;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	outline:none;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+#find{
+	font-size: 200%;
+}
+
